@@ -1,0 +1,94 @@
+/* AgeCalculator.css */
+* {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #333;
+    /* Dark background color */
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    color: #fff;
+    /* Text color */
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.container label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+
+button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.calcAge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcAge p {
+    font-size: 18px;
+    /* margin: 10px 0; */
+}
+
+/* Additional styles for better visualization */
+p {
+    margin: 0;
+}
+
+.calcAge p:first-child {
+    font-weight: bold;
+}
+
+.container label,
+.container input[type="date"],
+.AgeCalculator button {
+    width: 80%;
+    max-width: 250px;
+}
+
+.container label,
+button {
+    text-align: left;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Adjust styles as needed to suit your design preferences */
